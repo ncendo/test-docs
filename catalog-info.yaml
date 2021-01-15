@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test"
+  description: "test"
+  annotations:
+    github.com/project-slug: "rbogle/test-docs"
+    backstage.io/techdocs-ref: github:https://github.com/rbogle/test-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "guest"
